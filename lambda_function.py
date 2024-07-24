@@ -8,7 +8,7 @@ rekognition = boto3.client('rekognition')
 table = dynamodb.Table('SweetsRecipes')
 
 # カスタムモデルのARN
-custom_model_arn = 'arn:aws:rekognition:ap-northeast-1:471112904122:project/sweets-rekognition/version/sweets-rekognition.2024-07-15T19.29.42/1721039382932'
+custom_model_arn = 'arn:aws:*************'
 
 def lambda_handler(event, context):
     try:
